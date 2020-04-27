@@ -6,6 +6,8 @@ CREATE database if NOT EXISTS `xxl_job` default character set utf8mb4 collate ut
 use `xxl_job`;
 
 SET NAMES utf8mb4;
+SET sql_mode = '';
+SET sql_mode = 'NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES';
 
 CREATE TABLE `xxl_job_info` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
