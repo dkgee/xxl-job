@@ -24,14 +24,14 @@
 			<div class="callout callout-info">
 				<h4>${I18n.admin_name_full}</h4>
 				<br>
-				<p>
+				<#--<p>
 					<a target="_blank" href="https://github.com/xuxueli/xxl-job">Github</a>&nbsp;&nbsp;&nbsp;&nbsp;
 					<iframe src="https://ghbtns.com/github-btn.html?user=xuxueli&repo=xxl-job&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px" style="margin-bottom:-5px;"></iframe> 
 					<br><br>
                     <a target="_blank" href="https://www.xuxueli.com/xxl-job/">${I18n.job_help_document}</a>
                     <br><br>
 
-				</p>
+				</p>-->
 				<p></p>
             </div>
 		</section>

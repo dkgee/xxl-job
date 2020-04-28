@@ -1,0 +1,15 @@
+version: '2.2'
+services:
+   cms-job:
+    image: registry.cn-beijing.aliyuncs.com/dkgee/cms-job:2.2.1
+    container_name: cms-job
+    ports:
+      - 8080:8080
+    environment:
+      - PROFILE=test
+      - MYSQL_ADDRESS=172.30.154.246:3306
+      - MYSQL_DB=xxl_job
+      - MYSQL_DB_USER=root
+      - MYSQL_DB_PASSWD=123456
+      - XXL_USER=admin
+      - XXL_USER_PASSWD=123456

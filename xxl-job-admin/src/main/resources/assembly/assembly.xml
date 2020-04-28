@@ -1,0 +1,30 @@
+<assembly>
+	<id>bin</id>
+	<formats>
+		<format>zip</format>
+	</formats>
+	<fileSets>
+		<fileSet>
+			<directory>src/main/resources</directory>
+			<includes>
+				<include>application.properties</include>
+				<include>application-dev.properties</include>
+				<include>application-prod.properties</include>
+				<include>application-test.properties</include>
+			</includes>
+			<outputDirectory>./config/</outputDirectory>
+		</fileSet>
+		<fileSet>
+			<directory>src/main/resources/scripts</directory>
+			<fileMode>0744</fileMode>
+			<outputDirectory>./</outputDirectory>
+		</fileSet>
+		<fileSet>
+			<directory>target/</directory>
+			<includes>
+				<include>*.jar</include>
+			</includes>
+			<outputDirectory>./</outputDirectory>
+		</fileSet>
+	</fileSets>
+</assembly>
